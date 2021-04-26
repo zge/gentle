@@ -33,6 +33,15 @@ parser.add_argument(
         help='transcript text file')
 args = parser.parse_args()
 
+# args = argparse.ArgumentParser()
+# args.audiofile = 'examples/data/lucier.mp3'
+# args.txtfile = 'examples/data/lucier.txt'
+# args.output = 'examples/data/test.TextGrid'
+# args.nthreads = multiprocessing.cpu_count()
+# args.disfluency = False
+# args.conservative = False
+# args.log = 'INFO'
+
 log_level = args.log.upper()
 logging.getLogger().setLevel(log_level)
 

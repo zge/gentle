@@ -10,6 +10,10 @@ from .util.paths import get_binary
 from .metasentence import MetaSentence
 from .resources import Resources
 
+# from gentle.util.paths import get_binary
+# from gentle.metasentence import MetaSentence
+# from gentle.resources import Resources
+
 MKGRAPH_PATH = get_binary("ext/m3")
 
 # [oov] no longer in words.txt
